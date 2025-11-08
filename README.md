@@ -1,1 +1,3 @@
-# CL2DC
+# [AAAI 2026] Coverage-Constrained Human-AI Cooperation with Multiple Experts (CL2DC) 
+
+This repo is the official implementation of our paper [Coverage-Constrained Human-AI Cooperation with Multiple Experts (CL2DC)]
