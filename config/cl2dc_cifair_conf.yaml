@@ -1,0 +1,36 @@
+defaults:
+  - override hydra/hydra_logging: disabled  
+  - override hydra/job_logging: disabled
+  - _self_
+  
+hydra:  
+  output_subdir: null  
+  run:  
+    dir: .
+
+experiment:
+  name: Learning to defer
+  logdir: ../logdirs/logdir_cl2dc
+  modeldir: ../save_models/logdir_cl2dc
+
+dataset:
+  name: cifair100
+  num_classes: 100
+  num_users: 3
+  prob_random_h_flip: 0.5
+  mean: null
+  std: null
+
+training:
+  coverage_lower: 0.5
+  coverage_upper: 0.4
+  exact_coverage: True
+  dual_coverage: True
+  coverage: 0.25
+  lr: 0.01
+  batch_size: 256
+  num_epochs: 200
+  progress_bar: True
+  num_workers: 8
+  prefetch_size: 8
+  device: 0
