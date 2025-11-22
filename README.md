@@ -29,3 +29,7 @@ We generate consensus labels via Multi-rater Learning methods [CrowdLab](https:/
 ```
 python "methods/cl2dc.py"
 ```
+
+## Other L2D methods
+
+We also provide the codes for other L2D methods with penalty constraint training: [DCE (ICML 2024)](https://openreview.net/forum?id=aiz79FxjaI), [A-SM (NIPS 2023)]([https://openreview.net/forum?id=aiz79FxjaI](https://proceedings.neurips.cc/paper_files/paper/2023/file/791d3337291b2c574545aeecfa75484c-Paper-Conference.pdf)), [MultiL2D (AISTATS 2023)](https://proceedings.mlr.press/v206/verma23a.html), [RS (AISTATS 2023)](https://proceedings.mlr.press/v206/mozannar23a), and [LECODU (ECCV 2024)](https://link.springer.com/chapter/10.1007/978-3-031-72992-8_9).
